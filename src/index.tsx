@@ -1,10 +1,10 @@
 import ReactDOM from 'react-dom';
-import UserSearch from './refs/UserSearch';
+import Redux from './redux/components/App';
 
 const App = () => {
   return (
     <div>
-      <UserSearch />
+      <Redux />
     </div>
   );
 };
